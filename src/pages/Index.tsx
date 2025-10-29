@@ -18,18 +18,18 @@ const CATEGORIES = [
 ];
 
 const PRODUCTS = [
-  { id: 1, name: 'Детская кровать "Солнышко"', price: 15990, category: 'children', image: '🛏️', desc: 'Удобная и безопасная кровать для детей от 3 лет' },
-  { id: 2, name: 'Шкаф для игрушек', price: 12990, category: 'children', image: '🧸', desc: 'Вместительный шкаф с яркими ящиками' },
-  { id: 3, name: 'Стол для детского сада', price: 8990, category: 'kindergarten', image: '🪑', desc: 'Прочный стол для занятий и творчества' },
-  { id: 4, name: 'Парта школьная', price: 11990, category: 'school', image: '✏️', desc: 'Регулируемая парта для школьников' },
-  { id: 5, name: 'Офисный стул "Комфорт"', price: 9990, category: 'office', image: '🪑', desc: 'Эргономичное кресло для офиса' },
-  { id: 6, name: 'Спортивная скамья', price: 14990, category: 'sports', image: '🏋️', desc: 'Надежная скамья для тренировок' },
-  { id: 7, name: 'Стеллаж металлический', price: 7990, category: 'household', image: '📦', desc: 'Прочный стеллаж для склада' },
-  { id: 8, name: 'Шкаф на металлокаркасе', price: 18990, category: 'metal', image: '🗄️', desc: 'Современный металлический шкаф' },
-  { id: 9, name: 'Детская парта "Умник"', price: 10990, category: 'children', image: '📝', desc: 'Растущая парта с регулировкой высоты' },
-  { id: 10, name: 'Стул детский цветной', price: 3990, category: 'kindergarten', image: '🪑', desc: 'Яркий и удобный стульчик' },
-  { id: 11, name: 'Доска маркерная школьная', price: 13990, category: 'school', image: '📋', desc: 'Большая магнитно-маркерная доска' },
-  { id: 12, name: 'Офисный шкаф', price: 24990, category: 'office', image: '🗄️', desc: 'Вместительный шкаф для документов' },
+  { id: 1, name: 'Детская кровать "Солнышко"', price: 15990, category: 'children', image: 'https://cdn.poehali.dev/projects/14a1cc9a-41e3-451a-80ed-14db1f76dc4d/files/3758a62b-1cfd-40ed-856f-ab8fc298e47d.jpg', desc: 'Удобная и безопасная кровать для детей от 3 лет' },
+  { id: 2, name: 'Шкаф для игрушек', price: 12990, category: 'children', image: 'https://cdn.poehali.dev/projects/14a1cc9a-41e3-451a-80ed-14db1f76dc4d/files/4bf523e2-7a66-44ea-b524-edb1a7c81197.jpg', desc: 'Вместительный шкаф с яркими ящиками' },
+  { id: 3, name: 'Стол для детского сада', price: 8990, category: 'kindergarten', image: 'https://cdn.poehali.dev/projects/14a1cc9a-41e3-451a-80ed-14db1f76dc4d/files/c9d7f4d3-8c40-4192-b800-776b19066520.jpg', desc: 'Прочный стол для занятий и творчества' },
+  { id: 4, name: 'Парта школьная', price: 11990, category: 'school', image: 'https://cdn.poehali.dev/projects/14a1cc9a-41e3-451a-80ed-14db1f76dc4d/files/d5f1ea7e-1d24-4566-b696-a6bff73ce781.jpg', desc: 'Регулируемая парта для школьников' },
+  { id: 5, name: 'Офисный стул "Комфорт"', price: 9990, category: 'office', image: 'https://cdn.poehali.dev/projects/14a1cc9a-41e3-451a-80ed-14db1f76dc4d/files/489b636f-2a84-46d5-8654-6b5bdf88700e.jpg', desc: 'Эргономичное кресло для офиса' },
+  { id: 6, name: 'Спортивная скамья', price: 14990, category: 'sports', image: 'https://cdn.poehali.dev/projects/14a1cc9a-41e3-451a-80ed-14db1f76dc4d/files/e77498fe-638a-48b9-869f-18a0cf83484e.jpg', desc: 'Надежная скамья для тренировок' },
+  { id: 7, name: 'Стеллаж металлический', price: 7990, category: 'household', image: 'https://cdn.poehali.dev/projects/14a1cc9a-41e3-451a-80ed-14db1f76dc4d/files/3758a62b-1cfd-40ed-856f-ab8fc298e47d.jpg', desc: 'Прочный стеллаж для склада' },
+  { id: 8, name: 'Шкаф на металлокаркасе', price: 18990, category: 'metal', image: 'https://cdn.poehali.dev/projects/14a1cc9a-41e3-451a-80ed-14db1f76dc4d/files/4bf523e2-7a66-44ea-b524-edb1a7c81197.jpg', desc: 'Современный металлический шкаф' },
+  { id: 9, name: 'Детская парта "Умник"', price: 10990, category: 'children', image: 'https://cdn.poehali.dev/projects/14a1cc9a-41e3-451a-80ed-14db1f76dc4d/files/d5f1ea7e-1d24-4566-b696-a6bff73ce781.jpg', desc: 'Растущая парта с регулировкой высоты' },
+  { id: 10, name: 'Стул детский цветной', price: 3990, category: 'kindergarten', image: 'https://cdn.poehali.dev/projects/14a1cc9a-41e3-451a-80ed-14db1f76dc4d/files/c9d7f4d3-8c40-4192-b800-776b19066520.jpg', desc: 'Яркий и удобный стульчик' },
+  { id: 11, name: 'Доска маркерная школьная', price: 13990, category: 'school', image: 'https://cdn.poehali.dev/projects/14a1cc9a-41e3-451a-80ed-14db1f76dc4d/files/c9d7f4d3-8c40-4192-b800-776b19066520.jpg', desc: 'Большая магнитно-маркерная доска' },
+  { id: 12, name: 'Офисный шкаф', price: 24990, category: 'office', image: 'https://cdn.poehali.dev/projects/14a1cc9a-41e3-451a-80ed-14db1f76dc4d/files/489b636f-2a84-46d5-8654-6b5bdf88700e.jpg', desc: 'Вместительный шкаф для документов' },
 ];
 
 const FAQS = [
@@ -63,11 +63,11 @@ export default function Index() {
             <div className="flex items-center gap-4">
               <div className="flex items-center gap-2">
                 <Icon name="Phone" size={16} />
-                <span>+7 (800) 123-45-67</span>
+                <span>+7 (915) 494-75-84</span>
               </div>
               <div className="flex items-center gap-2">
                 <Icon name="Mail" size={16} />
-                <span>info@mebel.ru</span>
+                <span>info@vilenamebel.ru</span>
               </div>
             </div>
             <div className="flex items-center gap-2">
@@ -211,8 +211,8 @@ export default function Index() {
             {filteredProducts.map((product) => (
               <Card key={product.id} className="bg-white border-border hover:shadow-lg transition-shadow overflow-hidden">
                 <CardContent className="p-0">
-                  <div className="bg-muted/50 py-12 text-center">
-                    <div className="text-7xl">{product.image}</div>
+                  <div className="bg-muted/50 overflow-hidden">
+                    <img src={product.image} alt={product.name} className="w-full h-64 object-cover" />
                   </div>
                   <div className="p-5">
                     <h3 className="font-semibold text-lg mb-2">{product.name}</h3>
@@ -296,22 +296,21 @@ export default function Index() {
                       <Icon name="Phone" size={24} className="text-primary mt-1" />
                       <div>
                         <div className="font-semibold mb-1">Телефон</div>
-                        <div className="text-muted-foreground">+7 (800) 123-45-67</div>
-                        <div className="text-muted-foreground">+7 (495) 987-65-43</div>
+                        <div className="text-muted-foreground">+7 (915) 494-75-84</div>
                       </div>
                     </div>
                     <div className="flex items-start gap-3">
                       <Icon name="Mail" size={24} className="text-primary mt-1" />
                       <div>
                         <div className="font-semibold mb-1">Email</div>
-                        <div className="text-muted-foreground">info@mebel.ru</div>
+                        <div className="text-muted-foreground">info@vilenamebel.ru</div>
                       </div>
                     </div>
                     <div className="flex items-start gap-3">
                       <Icon name="MapPin" size={24} className="text-primary mt-1" />
                       <div>
                         <div className="font-semibold mb-1">Адрес</div>
-                        <div className="text-muted-foreground">г. Москва, ул. Производственная, д. 15</div>
+                        <div className="text-muted-foreground">Московская обл., г. Дмитров</div>
                       </div>
                     </div>
                   </div>
@@ -372,8 +371,8 @@ export default function Index() {
             <div>
               <h3 className="font-bold mb-4">Контакты</h3>
               <div className="space-y-2 text-sm opacity-80">
-                <div>+7 (800) 123-45-67</div>
-                <div>info@mebel.ru</div>
+                <div>+7 (915) 494-75-84</div>
+                <div>info@vilenamebel.ru</div>
                 <div>Пн-Пт: 9:00-18:00</div>
               </div>
             </div>
